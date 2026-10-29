@@ -16,3 +16,5 @@ services:
         value: "*"
       - key: LOAD_SYNTHETIC_DEV_DATA_WHEN_EMPTY
         value: "false"
+      - key: JWT_SECRET_KEY
+        generateValue: true
