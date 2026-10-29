@@ -39,7 +39,8 @@ function getApiBase(): string {
 
   // If valid custom URL is configured and NOT a dummy placeholder containing 'xxxx', use it
   if (envBase && !envBase.includes("xxxx")) {
-    return `${envBase.replace(/\/+$/, "")}/api`;
+    const cleaned = envBase.replace(/\/+$/, "");
+    return cleaned.endsWith("/api") ? cleaned : `${cleaned}/api`;
   }
 
   // On local development, route through local Vite proxy (/api -> http://127.0.0.1:8000)
@@ -47,8 +48,8 @@ function getApiBase(): string {
     return "/api";
   }
 
-  // In production (Vercel), default directly to verified live Render backend
-  return "https://truthcart-ai.onrender.com/api";
+  // In production (Vercel), default directly to verified live new Render backend
+  return "https://truthcart-ai-updated.onrender.com/api";
 }
 
 export const API_BASE = getApiBase();
