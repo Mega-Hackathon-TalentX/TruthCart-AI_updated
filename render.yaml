@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: truthcart-ai
+    name: truthcart-ai-updated-api
     env: python
     region: singapore
     plan: free
