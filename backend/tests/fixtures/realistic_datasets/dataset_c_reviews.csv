@@ -1,0 +1,6 @@
+review_id,item_reference,stars,feedback,review_date
+REV-APP-101,TC-TECH-01,5,"Exceptional performance with 16 GB RAM for multitasking and software development.",2026-03-01
+REV-APP-102,TC-TECH-01,2,"Battery drains rather quickly under sustained CPU load.",2026-03-05
+REV-APP-103,TC-TECH-02,4,"Lightweight and great battery life for travel.",2026-03-10
+REV-AUD-201,TC-AUD-01,2,"Ear cups feel a bit tight after two hours of continuous use.",2026-03-12
+

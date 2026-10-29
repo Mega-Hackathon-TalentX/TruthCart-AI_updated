@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.env
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Models and Large Data (Never commit large weights)
+models/embedding_model/*
+!models/embedding_model/.gitkeep
+models/instruction_model/*
+!models/instruction_model/.gitkeep
+
+# Official R3 Data Fixtures (Allow essential CSV/JSONL fixtures)
+data/products/*
+!data/products/.gitkeep
+!data/products/truthcart_products_5000.csv
+data/policies/*
+!data/policies/.gitkeep
+!data/policies/truthcart_demo_policies.csv
+data/test_questions/*
+!data/test_questions/.gitkeep
+!data/test_questions/truthcart_evaluation_questions_150.jsonl
+!data/test_questions/truthcart_evaluation_questions_150.csv
+
+# Temporary database locks, journals, and scratch
+*.db-shm
+*.db-wal
+*.db-journal
+*.bak
+*.tmp
+scratch/
+
+# Temporary test evaluation reports
+artifacts/evaluation_reports/eval_report_*.json
+!artifacts/evaluation_reports/eval_report_9a37b5ff-e84b-4c0e-ae1e-f30cc2c73fd8_20261012_170048.json
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

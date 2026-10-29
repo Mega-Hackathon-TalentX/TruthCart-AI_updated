@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: truthcart-ai
+    env: python
+    region: singapore
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python start.py
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: ENVIRONMENT
+        value: production
+      - key: CORS_ORIGINS
+        value: "*"
+      - key: LOAD_SYNTHETIC_DEV_DATA_WHEN_EMPTY
+        value: "false"

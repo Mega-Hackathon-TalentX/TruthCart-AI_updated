@@ -1,0 +1,101 @@
+test_id,query,expected_field,expected_value,expected_product_id,test_category,pass_criteria
+RET-001,Find product ID TC-DEMO-00008,product_id,TC-DEMO-00008,TC-DEMO-00008,exact_id,Correct record/records and exact expected field values; no unrelated product facts.
+RET-002,What is the price of MangoLeaf Demo Desk Lamp 0051?,price_inr,7180,TC-DEMO-00051,name_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-003,Show products in category Books & Stationery with color Blue.,category_and_color,Books & Stationery|Blue,TC-DEMO-00094,filtering,Correct record/records and exact expected field values; no unrelated product facts.
+RET-004,Which material is OrbitNest Demo Laptop Sleeve 0137 made from?,material,Silicone,TC-DEMO-00137,attribute_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-005,How many reviews does PaperPilot Demo Compact Umbrella 0180 have?,review_count,2340,TC-DEMO-00180,numeric_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-006,Find product ID TC-DEMO-00223,product_id,TC-DEMO-00223,TC-DEMO-00223,exact_id,Correct record/records and exact expected field values; no unrelated product facts.
+RET-007,What is the price of BrightPath Demo Bath Towel 0266?,price_inr,7030,TC-DEMO-00266,name_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-008,Show products in category Office with color Green.,category_and_color,Office|Green,TC-DEMO-00309,filtering,Correct record/records and exact expected field values; no unrelated product facts.
+RET-009,Which material is Northstar Demo Kitchen Scale 0352 made from?,material,ABS plastic,TC-DEMO-00352,attribute_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-010,How many reviews does MangoLeaf Demo Shaker Bottle 0395 have?,review_count,333,TC-DEMO-00395,numeric_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-011,Find product ID TC-DEMO-00438,product_id,TC-DEMO-00438,TC-DEMO-00438,exact_id,Correct record/records and exact expected field values; no unrelated product facts.
+RET-012,What is the price of OrbitNest Demo Bluetooth Speaker 0481?,price_inr,6890,TC-DEMO-00481,name_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-013,Show products in category Books & Stationery with color Grey.,category_and_color,Books & Stationery|Grey,TC-DEMO-00524,filtering,Correct record/records and exact expected field values; no unrelated product facts.
+RET-014,Which material is CedarFox Demo Cable Organizer 0567 made from?,material,Polyester,TC-DEMO-00567,attribute_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-015,How many reviews does BrightPath Demo Packing Cubes 0610 have?,review_count,727,TC-DEMO-00610,numeric_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-016,Find product ID TC-DEMO-00653,product_id,TC-DEMO-00653,TC-DEMO-00653,exact_id,Correct record/records and exact expected field values; no unrelated product facts.
+RET-017,What is the price of Northstar Demo Comb Set 0696?,price_inr,6740,TC-DEMO-00696,name_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-018,Show products in category Office with color Red.,category_and_color,Office|Red,TC-DEMO-00739,filtering,Correct record/records and exact expected field values; no unrelated product facts.
+RET-019,Which material is BluePebble Demo Water Bottle 0782 made from?,material,Paper,TC-DEMO-00782,attribute_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-020,How many reviews does OrbitNest Demo Gym Gloves 0825 have?,review_count,1121,TC-DEMO-00825,numeric_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-021,Find product ID TC-DEMO-00868,product_id,TC-DEMO-00868,TC-DEMO-00868,exact_id,Correct record/records and exact expected field values; no unrelated product facts.
+RET-022,What is the price of CedarFox Demo USB-C Hub 0911?,price_inr,6590,TC-DEMO-00911,name_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-023,Show products in category Books & Stationery with color Beige.,category_and_color,Books & Stationery|Beige,TC-DEMO-00954,filtering,Correct record/records and exact expected field values; no unrelated product facts.
+RET-024,Which material is UrbanSprout Demo Card Holder 0997 made from?,material,Aluminium,TC-DEMO-00997,attribute_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-025,How many reviews does Northstar Demo Travel Pillow 1040 have?,review_count,1515,TC-DEMO-01040,numeric_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-026,Find product ID TC-DEMO-01083,product_id,TC-DEMO-01083,TC-DEMO-01083,exact_id,Correct record/records and exact expected field values; no unrelated product facts.
+RET-027,What is the price of BluePebble Demo Makeup Organizer 1126?,price_inr,6450,TC-DEMO-01126,name_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-028,Show products in category Office with color Purple.,category_and_color,Office|Purple,TC-DEMO-01169,filtering,Correct record/records and exact expected field values; no unrelated product facts.
+RET-029,Which material is PaperPilot Demo Lunch Box 1212 made from?,material,Stainless steel,TC-DEMO-01212,attribute_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-030,How many reviews does CedarFox Demo Foam Roller 1255 have?,review_count,1909,TC-DEMO-01255,numeric_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-031,Find product ID TC-DEMO-01298,product_id,TC-DEMO-01298,TC-DEMO-01298,exact_id,Correct record/records and exact expected field values; no unrelated product facts.
+RET-032,What is the price of UrbanSprout Demo Wireless Mouse 1341?,price_inr,6300,TC-DEMO-01341,name_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-033,Show products in category Books & Stationery with color Black.,category_and_color,Books & Stationery|Black,TC-DEMO-01384,filtering,Correct record/records and exact expected field values; no unrelated product facts.
+RET-034,Which material is MangoLeaf Demo Keychain 1427 made from?,material,Mixed materials,TC-DEMO-01427,attribute_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-035,How many reviews does BluePebble Demo Luggage Tag 1470 have?,review_count,2303,TC-DEMO-01470,numeric_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-036,Find product ID TC-DEMO-01513,product_id,TC-DEMO-01513,TC-DEMO-01513,exact_id,Correct record/records and exact expected field values; no unrelated product facts.
+RET-037,What is the price of PaperPilot Demo Hand Mirror 1556?,price_inr,6150,TC-DEMO-01556,name_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-038,Show products in category Office with color White.,category_and_color,Office|White,TC-DEMO-01599,filtering,Correct record/records and exact expected field values; no unrelated product facts.
+RET-039,Which material is BrightPath Demo Storage Container 1642 made from?,material,Cotton,TC-DEMO-01642,attribute_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-040,How many reviews does UrbanSprout Demo Yoga Mat 1685 have?,review_count,296,TC-DEMO-01685,numeric_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-041,Find product ID TC-DEMO-01728,product_id,TC-DEMO-01728,TC-DEMO-01728,exact_id,Correct record/records and exact expected field values; no unrelated product facts.
+RET-042,What is the price of MangoLeaf Demo Keyboard 1771?,price_inr,6010,TC-DEMO-01771,name_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-043,Show products in category Books & Stationery with color Blue.,category_and_color,Books & Stationery|Blue,TC-DEMO-01814,filtering,Correct record/records and exact expected field values; no unrelated product facts.
+RET-044,Which material is OrbitNest Demo Screen Cleaning Kit 1857 made from?,material,Silicone,TC-DEMO-01857,attribute_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-045,How many reviews does PaperPilot Demo Foldable Tote 1900 have?,review_count,690,TC-DEMO-01900,numeric_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-046,Find product ID TC-DEMO-01943,product_id,TC-DEMO-01943,TC-DEMO-01943,exact_id,Correct record/records and exact expected field values; no unrelated product facts.
+RET-047,What is the price of BrightPath Demo Hair Brush 1986?,price_inr,5860,TC-DEMO-01986,name_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-048,Show products in category Office with color Green.,category_and_color,Office|Green,TC-DEMO-02029,filtering,Correct record/records and exact expected field values; no unrelated product facts.
+RET-049,Which material is Northstar Demo Electric Kettle 2072 made from?,material,ABS plastic,TC-DEMO-02072,attribute_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-050,How many reviews does MangoLeaf Demo Resistance Bands 2115 have?,review_count,1084,TC-DEMO-02115,numeric_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-051,Find product ID TC-DEMO-02158,product_id,TC-DEMO-02158,TC-DEMO-02158,exact_id,Correct record/records and exact expected field values; no unrelated product facts.
+RET-052,What is the price of OrbitNest Demo Power Bank 2201?,price_inr,5710,TC-DEMO-02201,name_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-053,Show products in category Books & Stationery with color Grey.,category_and_color,Books & Stationery|Grey,TC-DEMO-02244,filtering,Correct record/records and exact expected field values; no unrelated product facts.
+RET-054,Which material is CedarFox Demo Phone Stand 2287 made from?,material,Polyester,TC-DEMO-02287,attribute_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-055,How many reviews does BrightPath Demo Passport Holder 2330 have?,review_count,1478,TC-DEMO-02330,numeric_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-056,Find product ID TC-DEMO-02373,product_id,TC-DEMO-02373,TC-DEMO-02373,exact_id,Correct record/records and exact expected field values; no unrelated product facts.
+RET-057,What is the price of Northstar Demo Travel Pouch 2416?,price_inr,5560,TC-DEMO-02416,name_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-058,Show products in category Office with color Red.,category_and_color,Office|Red,TC-DEMO-02459,filtering,Correct record/records and exact expected field values; no unrelated product facts.
+RET-059,Which material is BluePebble Demo Coffee Mug 2502 made from?,material,Paper,TC-DEMO-02502,attribute_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-060,How many reviews does OrbitNest Demo Skipping Rope 2545 have?,review_count,1872,TC-DEMO-02545,numeric_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-061,Find product ID TC-DEMO-02588,product_id,TC-DEMO-02588,TC-DEMO-02588,exact_id,Correct record/records and exact expected field values; no unrelated product facts.
+RET-062,What is the price of CedarFox Demo Desk Lamp 2631?,price_inr,5420,TC-DEMO-02631,name_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-063,Show products in category Books & Stationery with color Beige.,category_and_color,Books & Stationery|Beige,TC-DEMO-02674,filtering,Correct record/records and exact expected field values; no unrelated product facts.
+RET-064,Which material is UrbanSprout Demo Laptop Sleeve 2717 made from?,material,Aluminium,TC-DEMO-02717,attribute_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-065,How many reviews does Northstar Demo Compact Umbrella 2760 have?,review_count,2266,TC-DEMO-02760,numeric_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-066,Find product ID TC-DEMO-02803,product_id,TC-DEMO-02803,TC-DEMO-02803,exact_id,Correct record/records and exact expected field values; no unrelated product facts.
+RET-067,What is the price of BluePebble Demo Bath Towel 2846?,price_inr,5270,TC-DEMO-02846,name_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-068,Show products in category Office with color Purple.,category_and_color,Office|Purple,TC-DEMO-02889,filtering,Correct record/records and exact expected field values; no unrelated product facts.
+RET-069,Which material is PaperPilot Demo Kitchen Scale 2932 made from?,material,Stainless steel,TC-DEMO-02932,attribute_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-070,How many reviews does CedarFox Demo Shaker Bottle 2975 have?,review_count,259,TC-DEMO-02975,numeric_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-071,Find product ID TC-DEMO-03018,product_id,TC-DEMO-03018,TC-DEMO-03018,exact_id,Correct record/records and exact expected field values; no unrelated product facts.
+RET-072,What is the price of UrbanSprout Demo Bluetooth Speaker 3061?,price_inr,5120,TC-DEMO-03061,name_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-073,Show products in category Books & Stationery with color Black.,category_and_color,Books & Stationery|Black,TC-DEMO-03104,filtering,Correct record/records and exact expected field values; no unrelated product facts.
+RET-074,Which material is MangoLeaf Demo Cable Organizer 3147 made from?,material,Mixed materials,TC-DEMO-03147,attribute_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-075,How many reviews does BluePebble Demo Packing Cubes 3190 have?,review_count,653,TC-DEMO-03190,numeric_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-076,Find product ID TC-DEMO-03233,product_id,TC-DEMO-03233,TC-DEMO-03233,exact_id,Correct record/records and exact expected field values; no unrelated product facts.
+RET-077,What is the price of PaperPilot Demo Comb Set 3276?,price_inr,4980,TC-DEMO-03276,name_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-078,Show products in category Office with color White.,category_and_color,Office|White,TC-DEMO-03319,filtering,Correct record/records and exact expected field values; no unrelated product facts.
+RET-079,Which material is BrightPath Demo Water Bottle 3362 made from?,material,Cotton,TC-DEMO-03362,attribute_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-080,How many reviews does UrbanSprout Demo Gym Gloves 3405 have?,review_count,1047,TC-DEMO-03405,numeric_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-081,Find product ID TC-DEMO-03448,product_id,TC-DEMO-03448,TC-DEMO-03448,exact_id,Correct record/records and exact expected field values; no unrelated product facts.
+RET-082,What is the price of MangoLeaf Demo USB-C Hub 3491?,price_inr,4830,TC-DEMO-03491,name_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-083,Show products in category Books & Stationery with color Blue.,category_and_color,Books & Stationery|Blue,TC-DEMO-03534,filtering,Correct record/records and exact expected field values; no unrelated product facts.
+RET-084,Which material is OrbitNest Demo Card Holder 3577 made from?,material,Silicone,TC-DEMO-03577,attribute_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-085,How many reviews does PaperPilot Demo Travel Pillow 3620 have?,review_count,1441,TC-DEMO-03620,numeric_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-086,Find product ID TC-DEMO-03663,product_id,TC-DEMO-03663,TC-DEMO-03663,exact_id,Correct record/records and exact expected field values; no unrelated product facts.
+RET-087,What is the price of BrightPath Demo Makeup Organizer 3706?,price_inr,4680,TC-DEMO-03706,name_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-088,Show products in category Office with color Green.,category_and_color,Office|Green,TC-DEMO-03749,filtering,Correct record/records and exact expected field values; no unrelated product facts.
+RET-089,Which material is Northstar Demo Lunch Box 3792 made from?,material,ABS plastic,TC-DEMO-03792,attribute_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-090,How many reviews does MangoLeaf Demo Foam Roller 3835 have?,review_count,1835,TC-DEMO-03835,numeric_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-091,Find product ID TC-DEMO-03878,product_id,TC-DEMO-03878,TC-DEMO-03878,exact_id,Correct record/records and exact expected field values; no unrelated product facts.
+RET-092,What is the price of OrbitNest Demo Wireless Mouse 3921?,price_inr,4540,TC-DEMO-03921,name_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-093,Show products in category Books & Stationery with color Grey.,category_and_color,Books & Stationery|Grey,TC-DEMO-03964,filtering,Correct record/records and exact expected field values; no unrelated product facts.
+RET-094,Which material is CedarFox Demo Keychain 4007 made from?,material,Polyester,TC-DEMO-04007,attribute_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-095,How many reviews does BrightPath Demo Luggage Tag 4050 have?,review_count,2229,TC-DEMO-04050,numeric_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-096,Find product ID TC-DEMO-04093,product_id,TC-DEMO-04093,TC-DEMO-04093,exact_id,Correct record/records and exact expected field values; no unrelated product facts.
+RET-097,What is the price of Northstar Demo Hand Mirror 4136?,price_inr,4390,TC-DEMO-04136,name_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-098,Show products in category Office with color Red.,category_and_color,Office|Red,TC-DEMO-04179,filtering,Correct record/records and exact expected field values; no unrelated product facts.
+RET-099,Which material is BluePebble Demo Storage Container 4222 made from?,material,Paper,TC-DEMO-04222,attribute_lookup,Correct record/records and exact expected field values; no unrelated product facts.
+RET-100,How many reviews does OrbitNest Demo Yoga Mat 4265 have?,review_count,222,TC-DEMO-04265,numeric_lookup,Correct record/records and exact expected field values; no unrelated product facts.

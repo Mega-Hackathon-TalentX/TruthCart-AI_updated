@@ -1,0 +1,150 @@
+{
+  "report_id": "9a37b5ff-e84b-4c0e-ae1e-f30cc2c73fd8",
+  "timestamp": "2026-10-12T17:00:48.255323+00:00",
+  "dataset_name": "Development Fixture: sample_eval_questions.json",
+  "total_questions_tested": 10,
+  "successfully_evaluated": 10,
+  "groundedness_score": 0.7,
+  "answer_helpfulness_score": 0.6667,
+  "refusal_accuracy": 1.0,
+  "clarification_accuracy": 1.0,
+  "unsupported_claim_rate": 0.3,
+  "citation_validity_rate": 1.0,
+  "avg_latency_ms": 0.19,
+  "compute_info": {
+    "device": "CPU",
+    "offline": true,
+    "total_run_time_sec": 0.0
+  },
+  "details": [
+    {
+      "question_id": "TEST-Q1",
+      "query": "What is the price of TC-DEV-101?",
+      "expected_decision": "ANSWER",
+      "actual_decision": "ANSWER",
+      "decision_match": true,
+      "citations": [
+        "[PRODUCT:TC-DEV-101]"
+      ],
+      "citations_valid": true,
+      "has_unsupported_claims": false,
+      "latency_ms": 0.29,
+      "notes": "Exact price lookup for verified product"
+    },
+    {
+      "question_id": "TEST-Q2",
+      "query": "Show me cotton shirts under 1500",
+      "expected_decision": "ANSWER",
+      "actual_decision": "ANSWER",
+      "decision_match": true,
+      "citations": [
+        "[PRODUCT:TC-DEV-101]",
+        "[PRODUCT:TC-DEV-103]"
+      ],
+      "citations_valid": true,
+      "has_unsupported_claims": false,
+      "latency_ms": 0.25,
+      "notes": "Filtered search with numeric price and material constraint"
+    },
+    {
+      "question_id": "TEST-Q3",
+      "query": "What is your return policy window?",
+      "expected_decision": "ANSWER",
+      "actual_decision": "ANSWER",
+      "decision_match": true,
+      "citations": [
+        "[POLICY:RETURNS]"
+      ],
+      "citations_valid": true,
+      "has_unsupported_claims": false,
+      "latency_ms": 0.17,
+      "notes": "Direct policy question supported by Returns section"
+    },
+    {
+      "question_id": "TEST-Q4",
+      "query": "Does the Apex 15 laptop have 16 GB RAM?",
+      "expected_decision": "ANSWER",
+      "actual_decision": "CLARIFY",
+      "decision_match": false,
+      "citations": [],
+      "citations_valid": true,
+      "has_unsupported_claims": false,
+      "latency_ms": 0.19,
+      "notes": "Specific attribute verification supported by catalogue"
+    },
+    {
+      "question_id": "TEST-Q5",
+      "query": "Show me shirts",
+      "expected_decision": "CLARIFY",
+      "actual_decision": "CLARIFY",
+      "decision_match": true,
+      "citations": [],
+      "citations_valid": true,
+      "has_unsupported_claims": false,
+      "latency_ms": 0.12,
+      "notes": "Ambiguous broad request matching multiple items with distinct attributes"
+    },
+    {
+      "question_id": "TEST-Q6",
+      "query": "Do you have iPhone 15 Pro Max in titanium?",
+      "expected_decision": "REFUSE",
+      "actual_decision": "REFUSE",
+      "decision_match": true,
+      "citations": [],
+      "citations_valid": true,
+      "has_unsupported_claims": true,
+      "latency_ms": 0.2,
+      "notes": "Out of catalogue request - must refuse without guessing"
+    },
+    {
+      "question_id": "TEST-Q7",
+      "query": "Can I return a clearance item marked Final Sale?",
+      "expected_decision": "ANSWER",
+      "actual_decision": "ANSWER",
+      "decision_match": true,
+      "citations": [
+        "[POLICY:RETURNS]"
+      ],
+      "citations_valid": true,
+      "has_unsupported_claims": false,
+      "latency_ms": 0.19,
+      "notes": "Policy exception verification supported by Returns policy"
+    },
+    {
+      "question_id": "TEST-Q8",
+      "query": "Do you offer international shipping to Canada?",
+      "expected_decision": "REFUSE",
+      "actual_decision": "REFUSE",
+      "decision_match": true,
+      "citations": [],
+      "citations_valid": true,
+      "has_unsupported_claims": true,
+      "latency_ms": 0.17,
+      "notes": "Unsupported policy fact - must refuse rather than invent"
+    },
+    {
+      "question_id": "TEST-Q9",
+      "query": "What is the battery life of TC-DEV-101 cotton shirt?",
+      "expected_decision": "REFUSE",
+      "actual_decision": "REFUSE",
+      "decision_match": true,
+      "citations": [],
+      "citations_valid": true,
+      "has_unsupported_claims": true,
+      "latency_ms": 0.18,
+      "notes": "Invalid attribute for apparel product - cannot hallucinate battery life"
+    },
+    {
+      "question_id": "TEST-Q10",
+      "query": "Which laptop is in stock?",
+      "expected_decision": "ANSWER",
+      "actual_decision": "CLARIFY",
+      "decision_match": false,
+      "citations": [],
+      "citations_valid": true,
+      "has_unsupported_claims": false,
+      "latency_ms": 0.15,
+      "notes": "Filtered query with stock requirement"
+    }
+  ]
+}

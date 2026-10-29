@@ -1,0 +1,16 @@
+{
+  "name": "truthcart-ai",
+  "version": "1.0.0",
+  "description": "TruthCart AI - The Conversational Shopping Assistant That Doesn't Lie (Team TalentX)",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "python -m uvicorn app.main:app --app-dir backend --host 127.0.0.1 --port 8000 --reload",
+    "build": "npm --prefix frontend run build",
+    "install:frontend": "npm --prefix frontend install",
+    "postinstall": "npm --prefix frontend install",
+    "start:backend": "python -m uvicorn app.main:app --app-dir backend --host 127.0.0.1 --port 8000 --reload",
+    "test:backend": "python -m pytest backend/tests/ -v"
+  }
+}

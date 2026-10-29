@@ -1,0 +1,5 @@
+warehouse_sku,item_description,supplier_vendor,wholesale_cost,pack_quantity,reorder_level
+WH-SSD-01,M.2 NVMe Internal Solid State Drive 1TB,HyperStorage,5200.00,10,25
+WH-RAM-02,DDR5 SODIMM 16GB Laptop Memory Module,HyperStorage,3400.00,20,50
+WH-CHG-03,GaN Fast Wall Charger 65W USB-C,ChargePlus,1250.00,50,100
+

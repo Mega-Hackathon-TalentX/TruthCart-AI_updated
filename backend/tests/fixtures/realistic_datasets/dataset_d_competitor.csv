@@ -1,0 +1,5 @@
+listing_id,product_reference,seller_name,observed_price,currency,observation_date,source_url
+COMP-LST-01,TC-TECH-01,Marketplace X (Seller Alpha),92500.00,INR,2026-04-01,https://marketx.example.com/item/apex16
+COMP-LST-02,TC-TECH-01,DirectDeals (Seller Beta),87999.00,INR,2026-04-01,https://directdeals.example.com/p/apex16
+COMP-LST-03,TC-AUD-01,AudioKing,8199.00,INR,2026-04-01,https://audioking.example.com/zen-anc
+

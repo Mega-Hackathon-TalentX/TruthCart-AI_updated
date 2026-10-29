@@ -1,0 +1,4 @@
+col1,col2,col3
+"broken row with unclosed quote and invalid binary \x00\x1f
+another row without matching delimiter
+

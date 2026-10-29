@@ -1,0 +1,4 @@
+patient_id,systolic_bp,diastolic_bp,cholesterol_mg_dl,diagnosis
+PT-901,120,80,185,Normal
+PT-902,145,95,240,Hypertension
+

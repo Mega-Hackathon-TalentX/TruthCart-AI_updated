@@ -1,0 +1,11 @@
+policy_id,section,policy_text,evidence_rule
+POL-001,Returns,"Eligible items may be returned within the product-specific return_window_days shown in the active catalogue. If the product has no return window, do not assume one.",catalogue_field_required
+POL-002,Warranty,Warranty coverage is only what the active product record states. 'No warranty stated' does not mean a warranty exists.,catalogue_field_required
+POL-003,Shipping,"Only quote shipping information present in the active product record. Delivery estimates are estimates, not guarantees.",catalogue_field_required
+POL-004,Stock,Use the active stock_status field. Do not promise availability for out-of-stock items or invent exact inventory.,catalogue_field_required
+POL-005,Price,Use price_inr as the listed price and mrp_inr as listed MRP. Do not claim a discount or final checkout price beyond the supplied fields.,catalogue_field_required
+POL-006,Evidence and uncertainty,"If the active catalogue/policy does not support an answer, say: 'The catalogue doesn't specify this.' Do not guess.",grounding
+POL-007,Product comparisons,"Compare only fields available for both products. If a requested comparison field is missing for either item, state that limitation.",grounding
+POL-008,Customer feedback,Customer feedback is not official product evidence and must not automatically overwrite catalogue facts. Owner review is required.,data_governance
+POL-009,Dataset provenance,"Rows marked SYNTHETIC_TEST_DATA are fixtures for software testing, not factual claims about real products, sellers, ratings, stock, or brands.",test_data
+POL-010,Citations,"When answering a product-specific question, include the matching product ID as evidence if the app supports citations. Policy answers should cite the relevant policy ID.",citations

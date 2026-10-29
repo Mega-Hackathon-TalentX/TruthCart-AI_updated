@@ -1,0 +1,70 @@
+[
+  {
+    "question_id": "TEST-Q1",
+    "query": "What is the price of TC-DEV-101?",
+    "expected_decision": "ANSWER",
+    "target_product_id": "TC-DEV-101",
+    "notes": "Exact price lookup for verified product"
+  },
+  {
+    "question_id": "TEST-Q2",
+    "query": "Show me cotton shirts under 1500",
+    "expected_decision": "ANSWER",
+    "target_product_id": "TC-DEV-101",
+    "notes": "Filtered search with numeric price and material constraint"
+  },
+  {
+    "question_id": "TEST-Q3",
+    "query": "What is your return policy window?",
+    "expected_decision": "ANSWER",
+    "policy_topic": "RETURNS",
+    "notes": "Direct policy question supported by Returns section"
+  },
+  {
+    "question_id": "TEST-Q4",
+    "query": "Does the Apex 15 laptop have 16 GB RAM?",
+    "expected_decision": "ANSWER",
+    "target_product_id": "TC-DEV-105",
+    "notes": "Specific attribute verification supported by catalogue"
+  },
+  {
+    "question_id": "TEST-Q5",
+    "query": "Show me shirts",
+    "expected_decision": "CLARIFY",
+    "notes": "Ambiguous broad request matching multiple items with distinct attributes"
+  },
+  {
+    "question_id": "TEST-Q6",
+    "query": "Do you have iPhone 15 Pro Max in titanium?",
+    "expected_decision": "REFUSE",
+    "notes": "Out of catalogue request - must refuse without guessing"
+  },
+  {
+    "question_id": "TEST-Q7",
+    "query": "Can I return a clearance item marked Final Sale?",
+    "expected_decision": "ANSWER",
+    "policy_topic": "RETURNS",
+    "notes": "Policy exception verification supported by Returns policy"
+  },
+  {
+    "question_id": "TEST-Q8",
+    "query": "Do you offer international shipping to Canada?",
+    "expected_decision": "REFUSE",
+    "policy_topic": "SHIPPING",
+    "notes": "Unsupported policy fact - must refuse rather than invent"
+  },
+  {
+    "question_id": "TEST-Q9",
+    "query": "What is the battery life of TC-DEV-101 cotton shirt?",
+    "expected_decision": "REFUSE",
+    "target_product_id": "TC-DEV-101",
+    "notes": "Invalid attribute for apparel product - cannot hallucinate battery life"
+  },
+  {
+    "question_id": "TEST-Q10",
+    "query": "Which laptop is in stock?",
+    "expected_decision": "ANSWER",
+    "target_product_id": "TC-DEV-105",
+    "notes": "Filtered query with stock requirement"
+  }
+]

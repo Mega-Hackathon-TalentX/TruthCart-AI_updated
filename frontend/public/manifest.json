@@ -1,0 +1,24 @@
+{
+  "short_name": "TruthCart",
+  "name": "TruthCart AI - Trustworthy Shopping Assistant",
+  "description": "TruthCart AI answers customer queries strictly from verified store catalogue records and official policies.",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/?portal=demo",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "display": "standalone",
+  "orientation": "portrait"
+}

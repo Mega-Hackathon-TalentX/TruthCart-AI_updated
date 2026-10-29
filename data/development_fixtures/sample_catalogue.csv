@@ -1,0 +1,7 @@
+product_id,title,description,category,price,stock_status,rating,attributes
+TC-DEV-101,Classic Cotton Oxford Shirt,Breathable 100% pure cotton formal shirt with button-down collar and regular fit.,Apparel,1499.0,In Stock,4.5,"{""material"": ""Cotton"", ""color"": ""Sky Blue"", ""brand"": ""TalentCloth""}"
+TC-DEV-102,Slim Fit Linen Casual Shirt,Lightweight pure linen summer shirt with mandarin collar stylish casual wear.,Apparel,1899.0,In Stock,4.2,"{""material"": ""Linen"", ""color"": ""White"", ""brand"": ""TalentCloth""}"
+TC-DEV-103,Cotton Casual Navy Shirt,Premium combed cotton shirt for casual everyday wear with curved hemline.,Apparel,1299.0,Out of Stock,4.4,"{""material"": ""Cotton"", ""color"": ""Navy Blue"", ""brand"": ""TalentCloth""}"
+TC-DEV-104,ProFlow Featherweight Running Shoes,High performance responsive foam cushioning road running shoes with breathable mesh upper.,Footwear,3299.0,In Stock,4.7,"{""color"": ""Cobalt Blue"", ""brand"": ""AeroStep"", ""type"": ""Running""}"
+TC-DEV-105,Apex 15 Stealth Gaming Laptop,High-tier gaming and workstation laptop powered by 14-core CPU RTX 4060 GPU and high-refresh display.,Electronics,78999.0,In Stock,4.8,"{""brand"": ""ApexTech"", ""ram"": ""16 GB RAM"", ""storage"": ""1 TB NVMe SSD""}"
+TC-DEV-106,ZenSound Active Noise Cancelling Headphones,Over-ear wireless headphones with hybrid active noise cancellation 40-hour battery life and Bluetooth 5.3.,Electronics,4499.0,In Stock,4.6,"{""brand"": ""ZenSound"", ""color"": ""Matte Black"", ""battery_life"": ""40 hours""}"

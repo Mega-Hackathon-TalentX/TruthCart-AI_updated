@@ -1,0 +1,98 @@
+[
+  {
+    "product_id": "TC-DEV-101",
+    "title": "Classic Cotton Oxford Shirt",
+    "description": "Breathable 100% pure cotton formal shirt with button-down collar and regular fit.",
+    "category": "Apparel",
+    "price": 1499.0,
+    "stock_status": "In Stock",
+    "rating": 4.5,
+    "attributes": {
+      "material": "Cotton",
+      "color": "Sky Blue",
+      "size": ["M", "L", "XL"],
+      "brand": "TalentCloth",
+      "pattern": "Solid"
+    }
+  },
+  {
+    "product_id": "TC-DEV-102",
+    "title": "Slim Fit Linen Casual Shirt",
+    "description": "Lightweight pure linen summer shirt with mandarin collar, stylish casual wear.",
+    "category": "Apparel",
+    "price": 1899.0,
+    "stock_status": "In Stock",
+    "rating": 4.2,
+    "attributes": {
+      "material": "Linen",
+      "color": "White",
+      "size": ["S", "M", "L"],
+      "brand": "TalentCloth",
+      "pattern": "Solid"
+    }
+  },
+  {
+    "product_id": "TC-DEV-103",
+    "title": "Cotton Casual Navy Shirt",
+    "description": "Premium combed cotton shirt for casual everyday wear with curved hemline.",
+    "category": "Apparel",
+    "price": 1299.0,
+    "stock_status": "Out of Stock",
+    "rating": 4.4,
+    "attributes": {
+      "material": "Cotton",
+      "color": "Navy Blue",
+      "size": ["M", "L"],
+      "brand": "TalentCloth",
+      "pattern": "Solid"
+    }
+  },
+  {
+    "product_id": "TC-DEV-104",
+    "title": "ProFlow Featherweight Running Shoes",
+    "description": "High performance responsive foam cushioning road running shoes with breathable mesh upper.",
+    "category": "Footwear",
+    "price": 3299.0,
+    "stock_status": "In Stock",
+    "rating": 4.7,
+    "attributes": {
+      "color": "Cobalt Blue",
+      "brand": "AeroStep",
+      "type": "Running",
+      "weight": "240g",
+      "sole": "EVA Foam"
+    }
+  },
+  {
+    "product_id": "TC-DEV-105",
+    "title": "Apex 15 Stealth Gaming Laptop",
+    "description": "High-tier gaming and workstation laptop powered by 14-core CPU, RTX 4060 GPU and high-refresh display.",
+    "category": "Electronics",
+    "price": 78999.0,
+    "stock_status": "In Stock",
+    "rating": 4.8,
+    "attributes": {
+      "brand": "ApexTech",
+      "ram": "16 GB RAM",
+      "storage": "1 TB NVMe SSD",
+      "processor": "Intel Core i7-13700H",
+      "screen_size": "15.6 inch 165Hz"
+    }
+  },
+  {
+    "product_id": "TC-DEV-106",
+    "title": "ZenSound Active Noise Cancelling Headphones",
+    "description": "Over-ear wireless headphones with hybrid active noise cancellation, 40-hour battery life, and Bluetooth 5.3.",
+    "category": "Electronics",
+    "price": 4499.0,
+    "stock_status": "In Stock",
+    "rating": 4.6,
+    "attributes": {
+      "brand": "ZenSound",
+      "color": "Matte Black",
+      "battery_life": "40 hours",
+      "connectivity": "Bluetooth 5.3 / 3.5mm Aux",
+      "anc": "Yes"
+    }
+  }
+]
